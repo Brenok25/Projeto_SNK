@@ -12,16 +12,51 @@
     <section class="tela">
 
         <div id="menu">
-            <img src="" alt="">
+            <img id="gh" src="./assets/pngwing 1.png" alt="" width="44px" height="55px">
+
             <nav>
                 <ul>
-                    <li>Inscreva-se</li>
-                    <li>Nossas tropas</li>
-                    <li>Sobre nós</li>
+                    <li> Inscreva-se </li>
+                    <li> Nossas tropas </li>
+                    <li> Sobre nós </li>
                 </ul>
             </nav>
         </div>
-        
+
+        <div id="title">
+            <img src="./assets/Group 5.png" alt=""  width="1430px" height="533px">
+        </div>
+
+        <div class="text">
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac dui sagittis, facilisis ligula nec.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac dui sagittis, facilisis ligula nec.</p>
+
+            
+        </div>
+
+
+        <button id="open" onclick="OpenModal('dv-modal')">Inscreva-se já</button>
+
+        <div id="dv-modal" class="modal">
+            <div class="modal_content">
+
+                <div class="modal-header">
+                    <h1>Dados Pessoais</h1>
+                </div>
+
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit sunt quas voluptatibus, totam ex non!</p>
+                </div>
+
+                <div class="modal-footer">
+                    <button id="close" onclick="CloseModal('dv-modal')">Cadastrar</button>
+                </div>
+
+            </div>
+        </div>
+
+
+
 
     </section>
 
@@ -32,7 +67,7 @@
 
 
 
-
+<script src="./script.js"></script>
 
 </body>
 </html>

@@ -13,3 +13,120 @@ font-family: 'Kadwa', serif; */
     width: 1440px;
     height: 1024px;
 }
+
+#menu{
+    margin:  58px 0 0 111px;
+}
+
+
+#menu nav{
+    display: inline-block;
+}
+
+#menu ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    top: -22px;
+    left: 957px;
+
+}
+
+#menu li{
+    padding: 0 35px;
+    font-size: 20px;
+    font-family: 'Kadwa', serif;
+}
+
+#title img{
+    margin: 50px 0 0 145px;
+}
+
+.text{
+    width: 626px;
+    margin: 70px 0 0 140px;
+    font-size: 40px;
+}
+
+.text p{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+#open{
+    position: absolute;
+    width: 397px;
+    height: 81px;
+    left: 1160px;
+    top: 890px;
+    
+    background: #332FFF;
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+    transition: background .3s;
+}
+
+#open:hover{
+    background-color: #1411c2;   
+    color: #fff;
+    cursor: pointer;
+}
+
+#open:active{
+    background-color: #231ffd;   
+    color: #fff;
+}
+
+
+body::-webkit-scrollbar {
+    width: 12px;               /* tamanho do scroll */
+}
+  
+body::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);        /* cor de trás */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(65, 65, 65);    /* cor da frente */
+    border-radius: 20px;       /* demais estilizações */ 
+}
+
+.modal{
+    display: none;
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal_content{
+    margin: 2% 0 0 31%;
+    width: 650px;
+    height: 780px;
+}
+
+.modal-header, .modal-body,.modal-footer{
+    padding: 20px;
+}
+
+.modal-header{
+    text-align: center;
+}
+
+#close{
+    position: absolute;
+    width: 397px;
+    height: 81px;
+    left: 675px;
+    top: 710px;
+    
+    background: #332FFF;
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+    transition: background .3s;
+
+}
